@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-size: 18px;
   }
-  
+
 :root {
     --font: monospace;
     --background-color: #233554;
@@ -88,6 +88,26 @@ body {
 }
 
 p {
+    line-height: 150%;
+}
+
+.main-project {
+    display: flex;
+    position: relative;
+    height: 400px;
+    width: 85%;
+    margin: 20px;
+    background-color: rgb(62, 88, 88);
+    background-image: url("../assets/Images/CF78A327-A75A-4C52-BF3C-69E49123ABB8_1_105_c.jpeg");
+    color: var(--white);
+}
+.mp {
+    position: absolute;
+    top: 250px;
+    bottom: 20px;
+    background-color: rgb(62, 88, 88);
+    padding: 20px;
+    margin-bottom: 20px;
     line-height: 150%;
 }
 
