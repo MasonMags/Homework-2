@@ -1,0 +1,60 @@
+:root {
+    --font-family: monospace;
+    --background-color: #233554;
+    --color: #ccd6f6;
+    --normal-font: 400;
+    --bold-font: 700;
+    --bolder-font: 900;
+    --primary-color: #8892b0;
+    --secondary-color: #64ffda;
+}
+
+html {
+    background-color: var(--background-color);
+}
+
+header { background-color: var(--background-color);
+    color: var(--color);
+    padding: 60px;
+    margin: 0px; 
+    font-family: var(--font-family);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: var(--bold-font);
+    font-size: 50px;
+    margin-top: -5px;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+
+ul li {
+    display: inline-block;
+}
+
+ul li a:link {
+    color: var(--color)
+}
+
+ul li a:hover {
+    color: var(--secondary-color);
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px
+}
+
+.float-right {
+    float: right
+}
