@@ -111,6 +111,26 @@ p {
     line-height: 150%;
 }
 
+@media screen and (max-width: 775px) {
+    .sp {
+        display: block;
+        background-size: 350px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        flex-direction: row;
+        width: 100%;
+    }
+    .titles {
+        border-right: none;
+        border-bottom: 5px;
+        border-bottom-style: solid;
+        border-bottom-color: var(--secondary-color);
+    }
+  }
+
 /* h1 {
     font-family: monospace;
     display: flex;
