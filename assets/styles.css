@@ -102,8 +102,8 @@ body {
 }
 
 #about-me-img{
-    height: 80%;
-    width: 50%;
+    height: 70%;
+    width: 40%;
     object-fit: contain;
     display: inline-block;
 }
@@ -111,13 +111,9 @@ body {
 p {
     line-height: 200%;
     color: var(--primary-color);
-    width: 40%;
+    width: 37%;
     display: inline-block;
 }
-
-/* #about-me-div {
-    float: right;
-} */
 
 .img {
     display: flex;
