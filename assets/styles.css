@@ -64,6 +64,7 @@ nav ul li a:hover {
 }
 
 #skills-list{
+    color: var(--primary-color);
     list-style-type: circle;
     line-height: 200%;
 }
@@ -97,11 +98,26 @@ body {
 .content-boxes {
     width: 80%;
     padding: 20px;
+    padding-bottom: 10px;
+}
+
+#about-me-img{
+    height: 80%;
+    width: 50%;
+    object-fit: contain;
+    display: inline-block;
 }
 
 p {
-    line-height: 150%;
+    line-height: 200%;
+    color: var(--primary-color);
+    width: 40%;
+    display: inline-block;
 }
+
+/* #about-me-div {
+    float: right;
+} */
 
 .img {
     display: flex;
