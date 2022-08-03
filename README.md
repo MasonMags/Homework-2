@@ -1,5 +1,9 @@
 # Portfolio Assignment
 
+## Deployed Link
+
+https://masonmags.github.io/Portfolio/
+
 ## Your Task
 
 The task for this assignment was to build a portfolio to showcase our work by applying the core HTML and CSS skills we've learned so far.
