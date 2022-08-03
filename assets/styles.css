@@ -67,6 +67,8 @@ nav ul li a:hover {
     color: var(--primary-color);
     list-style-type: circle;
     line-height: 200%;
+    columns: 2;
+    font-size: 20px
 }
 
 body {
@@ -92,7 +94,10 @@ body {
     width: 20%;
     padding-top: 20px;
     padding-right: 20px;
-    text-align: right;
+    /* text-align: right; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
 }
 
 .content-boxes {
@@ -102,38 +107,84 @@ body {
 }
 
 #about-me-img{
-    height: 70%;
-    width: 40%;
-    object-fit: contain;
-    display: inline-block;
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+    border-radius: 50%;
 }
 
-p {
+#about-blurb {
     line-height: 200%;
     color: var(--primary-color);
-    width: 37%;
-    display: inline-block;
+    width: 45%;
+    /* padding-right: 200px; */
+    /* display: inline-block; */
 }
 
-.img {
+/* .img {
     display: flex;
     position: relative;
     height: 80%;
     width: 80%;
     object-fit: contain;
     margin: 20px;
+} */
+
+.flex-parent {
+    display: flex
 }
 
-.sub-project{
-    display: inline;
+.flex-child {
+    flex: 1
 }
+
+/* .sub-project{
+    display: grid;
+} */
 .small-img{
-    display: inline;
-    height: 37%;
-    width: 37%;
+    /* flex: 1;  */
+    height: 80%;
+    width: 80%;
     object-fit: contain;
     margin: 20px;
 }
+
+.work-caption {
+    color: var(--color);
+    text-align: left;
+    /* flex: 1 */
+    margin-top: 70px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    width: 50%
+}
+
+.app-title{
+    text-decoration-line: underline;
+}
+
+.work-link-list {
+    color: var(--primary-color);
+    list-style-type: circle;
+    line-height: 200%;
+}
+
+.work-link-list a:link {
+    color: var(--color)
+}
+
+.work-link-list a:hover{
+    color: var(--secondary-color);
+}
+.work-link-list a:visited {
+color: var(--color)
+}
+
+.app-desc {
+    line-height: 200%;
+}
+
 
 .cm-links {
     list-style-type: circle;
