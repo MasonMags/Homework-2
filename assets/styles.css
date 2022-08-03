@@ -107,29 +107,19 @@ body {
 }
 
 #about-me-img{
-    height: auto; 
-    width: auto; 
+    height: auto;  
     max-width: 300px; 
     max-height: 300px;
-    border-radius: 50%;
+    border-radius: 60%;
+    margin-bottom: 20px;
+    margin-left: 20px
 }
 
 #about-blurb {
     line-height: 200%;
     color: var(--primary-color);
     width: 45%;
-    /* padding-right: 200px; */
-    /* display: inline-block; */
 }
-
-/* .img {
-    display: flex;
-    position: relative;
-    height: 80%;
-    width: 80%;
-    object-fit: contain;
-    margin: 20px;
-} */
 
 .flex-parent {
     display: flex
@@ -139,11 +129,7 @@ body {
     flex: 1
 }
 
-/* .sub-project{
-    display: grid;
-} */
 .small-img{
-    /* flex: 1;  */
     height: 80%;
     width: 80%;
     object-fit: contain;
@@ -153,11 +139,10 @@ body {
 .work-caption {
     color: var(--color);
     text-align: left;
-    /* flex: 1 */
     margin-top: 70px;
     margin-bottom: 20px;
     margin-right: 30px;
-    width: 50%
+    max-width: 450px
 }
 
 .app-title{
